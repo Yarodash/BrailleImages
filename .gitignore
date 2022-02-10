@@ -3,9 +3,13 @@
 *.jpg
 *.jpeg
 *.bmp
+!readme_image.png
 
 # Ignore "images" folder
 /images/*
 
 # Ignore notepad++ cache
 *.bak
+
+# Ignore program output
+*.txt
