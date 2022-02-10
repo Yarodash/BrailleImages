@@ -1,0 +1,11 @@
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.bmp
+
+# Ignore "images" folder
+/images/*
+
+# Ignore notepad++ cache
+*.bak
