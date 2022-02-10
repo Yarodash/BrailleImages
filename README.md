@@ -70,7 +70,7 @@ Image to braille font converter (Processing 3)
 ## User interface
 ![Program interface image](https://github.com/Yarodash/BrailleImages/blob/main/readme_image.png?raw=true)
 
-`BLACK/WHITE BORDER` - border of light at which a pixel is considered white (Almost useless when `DITHERING` is on)
+`BLACK/WHITE BORDER` - border of light at which a pixel is considered white (Almost useless when `DITHERING` is ON)
 
 `DITHERING` - includes [dithering algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering)
 
@@ -80,7 +80,7 @@ Image to braille font converter (Processing 3)
 
 `CHARACTERS PER LINE` - adjusts the number of characters in one line
 
-`SCROLL` - scrolls the picture when `DISPLAY` is on
+`SCROLL` - scrolls the picture when `DISPLAY` is OFF
 
 `IMAGE` - opens the image picker
 
@@ -89,3 +89,13 @@ Image to braille font converter (Processing 3)
 `Save as image` - saves image with current settings to **result_image.txt** (using only black and white pixels)
 
 `Compile images` - compiles all images from **images/** to **compiled_images.txt**
+
+## How to run
+
+To run program you should install `Processing 3`. 
+
+This language is fully designed to be used for creating simple projects, demos.
+
+After installing you should open `braille.pde`(main file) with it and RUN by pressing `CTRL+R`
+
+With `Processing 3` you can also compile it with `CTRL+SHIFT+E`
